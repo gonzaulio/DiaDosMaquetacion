@@ -1,7 +1,7 @@
 let usuarios = [];
 
 let nuevousuario0 = {}
-    nuevousuario0 = { "Nombre" : "prueba0", "Correo": "prueba0@gmail.com", "Numero": 644900994, "Destino": "Canarias"}
+    nuevousuario0 = { "Nombre" : "Carolina", "Correo": "prueba0@gmail.com", "Numero": 678547242, "Destino": "Canarias"}
     usuarios.push(nuevousuario0);
 
 let nuevousuario1 = {}
@@ -9,7 +9,7 @@ let nuevousuario1 = {}
     usuarios.push(nuevousuario1);
 
 let nuevousuario2 = {}
-    nuevousuario2 = { "Nombre" : "Julio", "Correo": "gonzo@gmail.com", "Numero": 644900994, "Destino": "Galicia"}
+    nuevousuario2 = { "Nombre" : "Julio", "Correo": "gonzo@gmail.com", "Numero": 644900458, "Destino": "Galicia"}
     usuarios.push(nuevousuario2);
 
 function nuevoUsuario() {
