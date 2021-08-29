@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section id="mainformulario">
+        <h1>¿A dónde vamos hoy?</h1>
+            <form id="formulariopadre">
+                <section class="seccionformulario">
+                    <label for="nombre" >Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" class="formulariohijo" placeholder="Nombres y apellidos">
+                </section>
+                <section class="seccionformulario">
+                    <label for="email">Correo electrónico:</label>
+                        <input type="email" name="correo" id="correo" class="formulariohijo" placeholder="ejemplo@ejemplo.com">
+                </section>
+                <section class="seccionformulario">
+                    <label for="numero">Número de teléfono:</label>
+                        <input type="tel" name="numero" id="numero" class="formulariohijo" placeholder="ejemplo: 601011011">
+                </section>
+                <section class="seccionformulario">
+                    <label for="destino">Tu destino:</label>
+                    <input list="ciudades" id="destino" name="destino" class="formulariohijo" placeholder="Elige tu destino" />
+                        <datalist id="ciudades">
+                            <option value="Canarias">
+                            <option value="Mayorca">
+                            <option value="Galicia">
+                            <option value="Madrid">
+                        </datalist>
+                </section>
+                <section class="seccionformulario" id="boton">
+                    <input type="button" onclick="nuevoUsuario()" value="Enviar datos">
+                </section>
+                <section id="botonesradio"> 
+                    
+                    <input type="radio" id="radio1" name="ciudadesselect">
+                    <label for="radio1">Canarias</label>
+                    <input type="radio" id="radio2" name="ciudadesselect" >
+                    <label for="radio2">Mayorca</label>
+                    <input type="radio" id="radio3" name="ciudadesselect">
+                    <label for="radio2">Galicia</label>
+                    
+                </section>
+                <section>
+                    <input type="button" onclick="mostrarResultado()" value="Filtrar resultados por ciudad">
+                </section>
+            </form>
+    </section>
+    <script type="text/javascript" src="app.js"> </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-image: url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#mainformulario {
+    font-size: 20px;
+    border-style: ridge;
+    background-color: rgba(107, 106, 106, 0.748);
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 30%;
+    height: 500px;
+    font-family: 'Quicksand', sans-serif;
+    position: static;
+}
+
+.seccionformulario {
+    color: white;
+    padding-top: 10px;
+    margin: 0px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#formulariopadre {
+    margin-top: 0px;
+}
+
+h1 {
+    color: white;
+}
+
+#boton {
+    margin-top: 10px;
+}
+
+#botonesradio {
+    color: white;
+    margin-top: 30px;
+}
+
